@@ -1,0 +1,35 @@
+{
+    "name": "abhi-dev",
+    "version": "2.2.2",
+    "author": "Abhishek Panthee <info@abhishekpanthee.com.np> (https://abhishekpanthee.com.np)",
+    "description": "A personal card for Abhishek Panthee",
+    "main": "card.js",
+    "bin": "./card.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/abhishekpanthee/npxcard.git"
+    },
+    "scripts": {
+        "setup": "ncu -u && npm i",
+        "start": "node card.js"
+    },
+    "dependencies": {
+        "boxen": "^5.0.0",
+        "chalk": "^4.1.0",
+        "clear": "^0.1.0",
+        "cli-spinners": "^2.5.0",
+        "inquirer": "^7.3.3",
+        "open": "^7.3.1",
+        "ora": "^5.3.0",
+        "request": "^2.88.2"
+    },
+    "keywords": [
+        "card",
+        "npm",
+        "npm card",
+        "npx",
+        "npx card",
+        "business card"
+    ],
+    "license": "ISC"
+}
