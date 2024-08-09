@@ -69,7 +69,7 @@ const {
     .
     .
 
-    facebook_username,
+    fb_username,
     resume_url,
 } = user_data;
 .
